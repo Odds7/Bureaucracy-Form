@@ -21,32 +21,44 @@
 <p class="p1"><span class="Apple-converted-space">    </span>&lt;style&gt;</p>
 <p class="p1"><span class="Apple-converted-space">        </span>body {</p>
 <p class="p1"><span class="Apple-converted-space">            </span>font-family: Arial, sans-serif;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>background-color: #f2f2f2;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: #d3d3d3;</p>
 <p class="p1"><span class="Apple-converted-space">            </span>padding: 20px;</p>
 <p class="p1"><span class="Apple-converted-space">        </span>}</p>
 <p class="p1"><span class="Apple-converted-space">        </span>.container {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>max-width: 600px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>max-width: 800px;</p>
 <p class="p1"><span class="Apple-converted-space">            </span>margin: 0 auto;</p>
 <p class="p1"><span class="Apple-converted-space">            </span>background: #ffffff;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>padding: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 30px;</p>
 <p class="p1"><span class="Apple-converted-space">            </span>border-radius: 10px;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);</p>
 <p class="p1"><span class="Apple-converted-space">        </span>}</p>
 <p class="p1"><span class="Apple-converted-space">        </span>h1 {</p>
 <p class="p1"><span class="Apple-converted-space">            </span>text-align: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 24px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: #333;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>p {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>text-align: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 16px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: #555;</p>
 <p class="p1"><span class="Apple-converted-space">        </span>}</p>
 <p class="p1"><span class="Apple-converted-space">        </span>label {</p>
 <p class="p1"><span class="Apple-converted-space">            </span>font-weight: bold;</p>
 <p class="p1"><span class="Apple-converted-space">            </span>display: block;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>margin-top: 10px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-top: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: #333;</p>
 <p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>input[type="text"], input[type="email"], select, textarea {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>input[type="text"], input[type="file"], select, textarea {</p>
 <p class="p1"><span class="Apple-converted-space">            </span>width: 100%;</p>
 <p class="p1"><span class="Apple-converted-space">            </span>padding: 10px;</p>
 <p class="p1"><span class="Apple-converted-space">            </span>margin-top: 5px;</p>
 <p class="p1"><span class="Apple-converted-space">            </span>margin-bottom: 15px;</p>
 <p class="p1"><span class="Apple-converted-space">            </span>border: 1px solid #ccc;</p>
 <p class="p1"><span class="Apple-converted-space">            </span>border-radius: 5px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: #f9f9f9;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>textarea {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>height: 100px;</p>
 <p class="p1"><span class="Apple-converted-space">        </span>}</p>
 <p class="p1"><span class="Apple-converted-space">        </span>.submit-button {</p>
 <p class="p1"><span class="Apple-converted-space">            </span>background-color: #007bff;</p>
@@ -55,7 +67,7 @@
 <p class="p1"><span class="Apple-converted-space">            </span>width: 100%;</p>
 <p class="p1"><span class="Apple-converted-space">            </span>border: none;</p>
 <p class="p1"><span class="Apple-converted-space">            </span>border-radius: 5px;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>font-size: 16px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 18px;</p>
 <p class="p1"><span class="Apple-converted-space">            </span>cursor: pointer;</p>
 <p class="p1"><span class="Apple-converted-space">        </span>}</p>
 <p class="p1"><span class="Apple-converted-space">        </span>.submit-button:hover {</p>
@@ -111,7 +123,6 @@
 <p class="p1"><span class="Apple-converted-space">                </span>&lt;option value="itdepends"&gt;It Depends (please submit Form L-42 for clarification)&lt;/option&gt;</p>
 <p class="p1"><span class="Apple-converted-space">            </span>&lt;/select&gt;</p>
 <p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;!-- Adding more absurd questions --&gt;</p>
 <p class="p1"><span class="Apple-converted-space">            </span>&lt;label for="favoriteform"&gt;What is Your Favourite Form (and Why)?&lt;/label&gt;</p>
 <p class="p1"><span class="Apple-converted-space">            </span>&lt;textarea id="favoriteform" name="favoriteform" required&gt;&lt;/textarea&gt;</p>
 <p class="p2"><br></p>
@@ -194,8 +205,6 @@
 <p class="p2"><br></p>
 <p class="p1"><span class="Apple-converted-space">            </span>&lt;label for="confusion"&gt;Rate Your Level of Confusion (1-10)&lt;/label&gt;</p>
 <p class="p1"><span class="Apple-converted-space">            </span>&lt;input type="text" id="confusion" name="confusion" required&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;!-- Additional absurd questions can be added similarly, building up to 100 questions --&gt;</p>
 <p class="p2"><br></p>
 <p class="p1"><span class="Apple-converted-space">            </span>&lt;button type="submit" class="submit-button"&gt;Submit for Initial Review of Potential Approval (Subject to Terms)&lt;/button&gt;</p>
 <p class="p1"><span class="Apple-converted-space">        </span>&lt;/form&gt;</p>
