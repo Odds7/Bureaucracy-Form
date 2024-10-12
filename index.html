@@ -1,206 +1,197 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2566">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
-  </style>
-</head>
-<body>
-<p class="p1">&lt;!DOCTYPE html&gt;</p>
-<p class="p1">&lt;html lang="en"&gt;</p>
-<p class="p1">&lt;head&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta charset="UTF-8"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;title&gt;Bureaucracy Form&lt;/title&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;style&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>body {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>font-family: Arial, sans-serif;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>background-color: #f2f2f2;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>padding: 20px;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>.container {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>max-width: 600px;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>margin: 0 auto;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>background: #ffffff;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>padding: 20px;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 10px;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>h1 {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>text-align: center;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>label {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>font-weight: bold;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>display: block;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>margin-top: 10px;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>input[type="text"], input[type="email"], select, textarea {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>width: 100%;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>padding: 10px;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>margin-top: 5px;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>margin-bottom: 15px;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>border: 1px solid #ccc;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 5px;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>.submit-button {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>background-color: #007bff;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>color: #ffffff;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>padding: 15px;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>width: 100%;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>border: none;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 5px;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>font-size: 16px;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>cursor: pointer;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>.submit-button:hover {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>background-color: #0056b3;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/style&gt;</p>
-<p class="p1">&lt;/head&gt;</p>
-<p class="p1">&lt;body&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="container"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;h1&gt;To converse with [ridiculously long bureaucratic title Michelle Lin, BCom (Hons), Int Bus Strategy, BSc (Biotech), PGDip Innovation Mgmt, MAppSc, Psych Coaching, GradDip Pos Psych], please complete this form and email it to Human Resources.&lt;/h1&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;p&gt;Please complete this form in its entirety to proceed. Failure to complete all fields may result in immediate rejection.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;form&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;label for="fullname"&gt;Full Name (including aliases, if any)&lt;/label&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;input type="text" id="fullname" name="fullname" required&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;label for="address"&gt;Current Address (including previous address in last 5 years)&lt;/label&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;textarea id="address" name="address" required&gt;&lt;/textarea&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;label for="formcode"&gt;Form Code (if applicable, otherwise leave blank but explain why)&lt;/label&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;input type="text" id="formcode" name="formcode"&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;label for="birthcertificate"&gt;Upload a Copy of Your Birth Certificate (Optional but Preferred)&lt;/label&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;input type="file" id="birthcertificate" name="birthcertificate"&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;label for="reason"&gt;State the Reason for Interaction (in 200 words or less)&lt;/label&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;textarea id="reason" name="reason" required&gt;&lt;/textarea&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;label for="bureau"&gt;Has This Conversation Been Approved by the Bureau of Small Talk?&lt;/label&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;select id="bureau" name="bureau" required&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;option value=""&gt;Select...&lt;/option&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;option value="yes"&gt;Yes&lt;/option&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;option value="no"&gt;No (If no, please explain below)&lt;/option&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/select&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;label for="explanation"&gt;Explanation (If You Answered 'No' Above)&lt;/label&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;textarea id="explanation" name="explanation"&gt;&lt;/textarea&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;label for="license"&gt;Do You Have a License to Interact with Bureaucracy?&lt;/label&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;select id="license" name="license" required&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;option value=""&gt;Select...&lt;/option&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;option value="yes"&gt;Yes&lt;/option&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;option value="no"&gt;No&lt;/option&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/select&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;label for="declaration"&gt;Declaration of Intent&lt;/label&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;input type="checkbox" id="declaration" name="declaration" required&gt; I declare I have read and understood all sections, including Sections A, B, C...Z.</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;label for="captcha"&gt;Captcha: How many bureaucrats does it take to change a lightbulb?&lt;/label&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;select id="captcha" name="captcha" required&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;option value=""&gt;Select...&lt;/option&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;option value="one"&gt;One (but it needs committee approval)&lt;/option&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;option value="two"&gt;Two (one to submit a change request, one to approve)&lt;/option&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;option value="itdepends"&gt;It Depends (please submit Form L-42 for clarification)&lt;/option&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/select&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;!-- Adding more absurd questions --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;label for="favoriteform"&gt;What is Your Favourite Form (and Why)?&lt;/label&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;textarea id="favoriteform" name="favoriteform" required&gt;&lt;/textarea&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;label for="color"&gt;Select the Colour of Your Intent&lt;/label&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;select id="color" name="color" required&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;option value=""&gt;Select...&lt;/option&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;option value="blue"&gt;Blue (Pending Review)&lt;/option&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;option value="red"&gt;Red (Requires Extra Documentation)&lt;/option&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;option value="green"&gt;Green (Subject to Terms)&lt;/option&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/select&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;label for="motivation"&gt;Describe Your Motivation for Completing This Form (in 500 words)&lt;/label&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;textarea id="motivation" name="motivation"&gt;&lt;/textarea&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;label for="infinite"&gt;If You Had Infinite Time, How Many Forms Would You Complete?&lt;/label&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;input type="text" id="infinite" name="infinite"&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;label for="approval"&gt;Do You Have Approval from the Committee of Unnecessary Paperwork?&lt;/label&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;select id="approval" name="approval" required&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;option value=""&gt;Select...&lt;/option&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;option value="yes"&gt;Yes (Upload Proof)&lt;/option&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;option value="no"&gt;No (Please Explain)&lt;/option&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/select&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;label for="dream"&gt;What Is Your Dream Bureaucratic Title?&lt;/label&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;input type="text" id="dream" name="dream" required&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;label for="timesubmitted"&gt;How Many Times Have You Submitted This Form Before?&lt;/label&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;input type="text" id="timesubmitted" name="timesubmitted" required&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;label for="fees"&gt;Have You Paid the Form Submission Fee (Form F-99)?&lt;/label&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;select id="fees" name="fees" required&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;option value=""&gt;Select...&lt;/option&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;option value="yes"&gt;Yes&lt;/option&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;option value="no"&gt;No (Payment Is Pending)&lt;/option&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/select&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;label for="lineage"&gt;List Your Bureaucratic Lineage (Include Titles)&lt;/label&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;textarea id="lineage" name="lineage" required&gt;&lt;/textarea&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;label for="petname"&gt;Name of Your Childhood Pet (Required for Verification)&lt;/label&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;input type="text" id="petname" name="petname" required&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;label for="waiting"&gt;How Long Are You Willing to Wait for a Response?&lt;/label&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;select id="waiting" name="waiting" required&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;option value=""&gt;Select...&lt;/option&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;option value="1month"&gt;1 Month&lt;/option&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;option value="6months"&gt;6 Months (Standard)&lt;/option&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;option value="1year"&gt;1 Year (Expedited)&lt;/option&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/select&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;label for="signature"&gt;Draw Your Digital Signature Using ASCII Art&lt;/label&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;textarea id="signature" name="signature" required&gt;&lt;/textarea&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;label for="redtape"&gt;How Many Meters of Red Tape Do You Expect This Process to Involve?&lt;/label&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;input type="text" id="redtape" name="redtape" required&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;label for="opinion"&gt;Provide Your Opinion on the Necessity of This Form (Use at Least 100 Words)&lt;/label&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;textarea id="opinion" name="opinion" required&gt;&lt;/textarea&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;label for="coffee"&gt;How Many Cups of Coffee Will Be Consumed During This Process?&lt;/label&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;input type="text" id="coffee" name="coffee"&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;label for="dreamreview"&gt;If This Form Were to Be Reviewed by a Dream Bureaucrat, What Would They Say?&lt;/label&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;textarea id="dreamreview" name="dreamreview"&gt;&lt;/textarea&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;label for="emojitest"&gt;Select the Emoji That Best Represents Your Current Emotional State During Form Completion&lt;/label&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;select id="emojitest" name="emojitest" required&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;option value=""&gt;Select...&lt;/option&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;option value="neutral"&gt;😐 Neutral Face&lt;/option&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;option value="frustrated"&gt;😤 Face with Steam&lt;/option&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;option value="determined"&gt;😎 Smiling Face with Sunglasses&lt;/option&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/select&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;label for="translation"&gt;Translate This Form into a Language of Your Choice and Re-Submit&lt;/label&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;textarea id="translation" name="translation" required&gt;&lt;/textarea&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;label for="jargon"&gt;Explain Any Bureaucratic Jargon You Found Confusing&lt;/label&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;textarea id="jargon" name="jargon"&gt;&lt;/textarea&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;label for="confusion"&gt;Rate Your Level of Confusion (1-10)&lt;/label&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;input type="text" id="confusion" name="confusion" required&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;!-- Additional absurd questions can be added similarly, building up to 100 questions --&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;button type="submit" class="submit-button"&gt;Submit for Initial Review of Potential Approval (Subject to Terms)&lt;/button&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/form&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
-<p class="p1">&lt;/body&gt;</p>
-<p class="p1">&lt;/html&gt;</p>
-</body>
-</html>
+{\rtf1\ansi\ansicpg1252\cocoartf2818
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 <!DOCTYPE html>\
+<html lang="en">\
+<head>\
+    <meta charset="UTF-8">\
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">\
+    <title>Bureaucracy Form</title>\
+    <style>\
+        body \{\
+            font-family: Arial, sans-serif;\
+            background-color: #f2f2f2;\
+            padding: 20px;\
+        \}\
+        .container \{\
+            max-width: 600px;\
+            margin: 0 auto;\
+            background: #ffffff;\
+            padding: 20px;\
+            border-radius: 10px;\
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);\
+        \}\
+        h1 \{\
+            text-align: center;\
+        \}\
+        label \{\
+            font-weight: bold;\
+            display: block;\
+            margin-top: 10px;\
+        \}\
+        input[type="text"], input[type="email"], select, textarea \{\
+            width: 100%;\
+            padding: 10px;\
+            margin-top: 5px;\
+            margin-bottom: 15px;\
+            border: 1px solid #ccc;\
+            border-radius: 5px;\
+        \}\
+        .submit-button \{\
+            background-color: #007bff;\
+            color: #ffffff;\
+            padding: 15px;\
+            width: 100%;\
+            border: none;\
+            border-radius: 5px;\
+            font-size: 16px;\
+            cursor: pointer;\
+        \}\
+        .submit-button:hover \{\
+            background-color: #0056b3;\
+        \}\
+    </style>\
+</head>\
+<body>\
+    <div class="container">\
+        <h1>To converse with [ridiculously long bureaucratic title Michelle Lin, BCom (Hons), Int Bus Strategy, BSc (Biotech), PGDip Innovation Mgmt, MAppSc, Psych Coaching, GradDip Pos Psych], please complete this form and email it to Human Resources.</h1>\
+        <p>Please complete this form in its entirety to proceed. Failure to complete all fields may result in immediate rejection.</p>\
+        <form>\
+            <label for="fullname">Full Name (including aliases, if any)</label>\
+            <input type="text" id="fullname" name="fullname" required>\
+\
+            <label for="address">Current Address (including previous address in last 5 years)</label>\
+            <textarea id="address" name="address" required></textarea>\
+\
+            <label for="formcode">Form Code (if applicable, otherwise leave blank but explain why)</label>\
+            <input type="text" id="formcode" name="formcode">\
+\
+            <label for="birthcertificate">Upload a Copy of Your Birth Certificate (Optional but Preferred)</label>\
+            <input type="file" id="birthcertificate" name="birthcertificate">\
+\
+            <label for="reason">State the Reason for Interaction (in 200 words or less)</label>\
+            <textarea id="reason" name="reason" required></textarea>\
+\
+            <label for="bureau">Has This Conversation Been Approved by the Bureau of Small Talk?</label>\
+            <select id="bureau" name="bureau" required>\
+                <option value="">Select...</option>\
+                <option value="yes">Yes</option>\
+                <option value="no">No (If no, please explain below)</option>\
+            </select>\
+\
+            <label for="explanation">Explanation (If You Answered 'No' Above)</label>\
+            <textarea id="explanation" name="explanation"></textarea>\
+\
+            <label for="license">Do You Have a License to Interact with Bureaucracy?</label>\
+            <select id="license" name="license" required>\
+                <option value="">Select...</option>\
+                <option value="yes">Yes</option>\
+                <option value="no">No</option>\
+            </select>\
+\
+            <label for="declaration">Declaration of Intent</label>\
+            <input type="checkbox" id="declaration" name="declaration" required> I declare I have read and understood all sections, including Sections A, B, C...Z.\
+\
+            <label for="captcha">Captcha: How many bureaucrats does it take to change a lightbulb?</label>\
+            <select id="captcha" name="captcha" required>\
+                <option value="">Select...</option>\
+                <option value="one">One (but it needs committee approval)</option>\
+                <option value="two">Two (one to submit a change request, one to approve)</option>\
+                <option value="itdepends">It Depends (please submit Form L-42 for clarification)</option>\
+            </select>\
+\
+            <!-- Adding more absurd questions -->\
+            <label for="favoriteform">What is Your Favourite Form (and Why)?</label>\
+            <textarea id="favoriteform" name="favoriteform" required></textarea>\
+\
+            <label for="color">Select the Colour of Your Intent</label>\
+            <select id="color" name="color" required>\
+                <option value="">Select...</option>\
+                <option value="blue">Blue (Pending Review)</option>\
+                <option value="red">Red (Requires Extra Documentation)</option>\
+                <option value="green">Green (Subject to Terms)</option>\
+            </select>\
+\
+            <label for="motivation">Describe Your Motivation for Completing This Form (in 500 words)</label>\
+            <textarea id="motivation" name="motivation"></textarea>\
+\
+            <label for="infinite">If You Had Infinite Time, How Many Forms Would You Complete?</label>\
+            <input type="text" id="infinite" name="infinite">\
+\
+            <label for="approval">Do You Have Approval from the Committee of Unnecessary Paperwork?</label>\
+            <select id="approval" name="approval" required>\
+                <option value="">Select...</option>\
+                <option value="yes">Yes (Upload Proof)</option>\
+                <option value="no">No (Please Explain)</option>\
+            </select>\
+\
+            <label for="dream">What Is Your Dream Bureaucratic Title?</label>\
+            <input type="text" id="dream" name="dream" required>\
+\
+            <label for="timesubmitted">How Many Times Have You Submitted This Form Before?</label>\
+            <input type="text" id="timesubmitted" name="timesubmitted" required>\
+\
+            <label for="fees">Have You Paid the Form Submission Fee (Form F-99)?</label>\
+            <select id="fees" name="fees" required>\
+                <option value="">Select...</option>\
+                <option value="yes">Yes</option>\
+                <option value="no">No (Payment Is Pending)</option>\
+            </select>\
+\
+            <label for="lineage">List Your Bureaucratic Lineage (Include Titles)</label>\
+            <textarea id="lineage" name="lineage" required></textarea>\
+\
+            <label for="petname">Name of Your Childhood Pet (Required for Verification)</label>\
+            <input type="text" id="petname" name="petname" required>\
+\
+            <label for="waiting">How Long Are You Willing to Wait for a Response?</label>\
+            <select id="waiting" name="waiting" required>\
+                <option value="">Select...</option>\
+                <option value="1month">1 Month</option>\
+                <option value="6months">6 Months (Standard)</option>\
+                <option value="1year">1 Year (Expedited)</option>\
+            </select>\
+\
+            <label for="signature">Draw Your Digital Signature Using ASCII Art</label>\
+            <textarea id="signature" name="signature" required></textarea>\
+\
+            <label for="redtape">How Many Meters of Red Tape Do You Expect This Process to Involve?</label>\
+            <input type="text" id="redtape" name="redtape" required>\
+\
+            <label for="opinion">Provide Your Opinion on the Necessity of This Form (Use at Least 100 Words)</label>\
+            <textarea id="opinion" name="opinion" required></textarea>\
+\
+            <label for="coffee">How Many Cups of Coffee Will Be Consumed During This Process?</label>\
+            <input type="text" id="coffee" name="coffee">\
+\
+            <label for="dreamreview">If This Form Were to Be Reviewed by a Dream Bureaucrat, What Would They Say?</label>\
+            <textarea id="dreamreview" name="dreamreview"></textarea>\
+\
+            <label for="emojitest">Select the Emoji That Best Represents Your Current Emotional State During Form Completion</label>\
+            <select id="emojitest" name="emojitest" required>\
+                <option value="">Select...</option>\
+                <option value="neutral">\uc0\u55357 \u56848  Neutral Face</option>\
+                <option value="frustrated">\uc0\u55357 \u56868  Face with Steam</option>\
+                <option value="determined">\uc0\u55357 \u56846  Smiling Face with Sunglasses</option>\
+            </select>\
+\
+            <label for="translation">Translate This Form into a Language of Your Choice and Re-Submit</label>\
+            <textarea id="translation" name="translation" required></textarea>\
+\
+            <label for="jargon">Explain Any Bureaucratic Jargon You Found Confusing</label>\
+            <textarea id="jargon" name="jargon"></textarea>\
+\
+            <label for="confusion">Rate Your Level of Confusion (1-10)</label>\
+            <input type="text" id="confusion" name="confusion" required>\
+\
+            <!-- Additional absurd questions can be added similarly, building up to 100 questions -->\
+\
+            <button type="submit" class="submit-button">Submit for Initial Review of Potential Approval (Subject to Terms)</button>\
+        </form>\
+    </div>\
+</body>\
+</html>}
